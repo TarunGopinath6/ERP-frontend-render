@@ -1,0 +1,31 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right bottom, #54ff83, #60ff78, #6cff6d, #77ff61, #82ff54, #84ff4e, #85ff47, #87ff40, #7fff3f, #76ff3f, #6dff3e, #63ff3e);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: radial-gradient(circle, #e24467, #e83d63, #ed355f, #f32c5a, #f82055, #f8184e, #f80d46, #f8003e, #f20031, #eb0024, #e40015, #dd0000);
+  }
+  .gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #fccb90;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right bottom, #54ff83, #60ff78, #6cff6d, #77ff61, #82ff54, #84ff4e, #85ff47, #87ff40, #7fff3f, #76ff3f, #6dff3e, #63ff3e);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: radial-gradient(circle, #e24467, #e83d63, #ed355f, #f32c5a, #f82055, #f8184e, #f80d46, #f8003e, #f20031, #eb0024, #e40015, #dd0000);
+  }
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
